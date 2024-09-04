@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
-
+import { FaHouse } from "react-icons/fa6";
 
 const RealEstateCard = () => {
-
 	return (
-
-    // Can convert to dynamic component as needed in the future
-		<div className="rounded-xl bg-white shadow-lg flex flex-row gap-3 w-[400px] p-2 m-2">
+		// Can convert to dynamic component as needed in the future
+		<div className="rounded-xl bg-white shadow-lg flex flex-row gap-3 w-[400px] p-2 m-2 relative">
+			<div className="absolute bg-black p-2 rounded-full -top-2 -left-4">
+				<FaHouse className=" text-white bg-black" />
+			</div>
 			<div className="rounded-xl p-2">
 				<Image
 					src={"/assets/sampleimg.jpg"}
@@ -27,9 +28,9 @@ const RealEstateCard = () => {
 						<div>8.18%</div>
 					</div>
 					<div className="bg-slate-100 rounded-lg p-2">
-            <p className="font-light text-gray-300">Ann. Return</p>
-            <div>8.18%</div>
-          </div>
+						<p className="font-light text-gray-300">Ann. Return</p>
+						<div>8.18%</div>
+					</div>
 				</div>
 			</div>
 		</div>

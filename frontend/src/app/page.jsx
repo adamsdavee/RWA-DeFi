@@ -173,7 +173,7 @@ const page = () => {
 						Token Overview
 					</h2>
 
-					<div className="flex flex-row gap-2">
+					<div className="flex lg:flex-row gap-2 flex-col">
 						<TokenCard
 							name={"LAND Token"}
 							utility

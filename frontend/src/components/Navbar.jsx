@@ -51,7 +51,7 @@ function NavBar() {
 							}`}
 						>
 							<ul className="h-screen md:h-auto items-center justify-center md:flex ">
-								<li className="pb-6 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-primary  border-primary  md:hover:text-primary md:hover:bg-transparent">
+								<li className="py-6 text-md font-medium text-black py- md:px-6 text-center border-b-2 md:border-b-0  hover:bg-primary  border-primary  md:hover:text-primary md:hover:bg-transparent">
 									<Link
 										href="#about"
 										onClick={() => setNavbar(!navbar)}
@@ -59,7 +59,7 @@ function NavBar() {
 										About
 									</Link>
 								</li>
-								<li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-primary  border-primary  md:hover:text-primary md:hover:bg-transparent">
+								<li className="py-6 text-md font-medium text-black py- px-6 text-center  border-b-2 md:border-b-0  hover:bg-primary  border-primary  md:hover:text-primary md:hover:bg-transparent">
 									<Link
 										href="#blog"
 										onClick={() => setNavbar(!navbar)}
@@ -67,10 +67,11 @@ function NavBar() {
 										Blogs
 									</Link>
 								</li>
-								<li className="pb-6 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-primary  border-primary  md:hover:text-primary md:hover:bg-transparent">
+								<li>
 									<Link
-										href="#projects"
+										href="/app"
 										onClick={() => setNavbar(!navbar)}
+										className="py-3 my-3 text-md font-medium text-white py- px-6 text-center border-b-2 md:border-b-0 bg-primary rounded-3xl hover:bg-primary border-primary  duration-200 md:hover:rounded-xl"
 									>
 										Launch App
 									</Link>

@@ -94,11 +94,11 @@ function Layout({ children }) {
 									</li>
 									<li className="text-center my-3">
 										<Link
-											href="#projects"
+											href="/dashboard"
 											onClick={() => setNavbar(!navbar)}
 											className="py-3 text-md font-medium text-white px-6 border-b-2 md:border-b-0 bg-primary rounded-3xl hover:bg-primary border-primary  duration-200 md:hover:rounded-xl"
 										>
-											Connect Wallet
+											Go to Dashboard
 										</Link>
 									</li>
 								</ul>

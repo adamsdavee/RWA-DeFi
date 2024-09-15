@@ -18,7 +18,7 @@ const ChartComponent= () => {
     ],
   };
 
-  return <Line className='bg-white w-full rounded-2xl shadow-2xl' data={data} options={{responsive: true}}/>;
+  return <Line className='bg-white w-full rounded-2xl shadow-2xl' data={data}/>;
 };
 
 export default ChartComponent

@@ -21,9 +21,9 @@ const BigRealEstateCard = ({
 				<div className="overflow-hidden rounded-t-2xl">
 					<Image
 						src={image}
-						width={390}
-						height={390}
-						className="rounded-t-2xl max-w-[390px] group-hover:scale-105 transition-transform duration-500"
+						width={350}
+						height={350}
+						className="rounded-t-2xl max-w-[350px] group-hover:scale-105 transition-transform duration-500"
 					/>
 				</div>
 				<div className="flex flex-row gap-2 text-white absolute bottom-2 left-2 text-sm font-light">
